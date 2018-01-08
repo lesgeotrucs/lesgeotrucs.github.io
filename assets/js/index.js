@@ -2,6 +2,7 @@ $(function() {
   // Ghosthunter configuration
   $('#search-field').ghostHunter({
     results: '#search-results',
+    includepages: true,
     before: function() {
       $('#search-results-container').modal('show');
       $('#search-term').html($('#search-field').val());
