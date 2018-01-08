@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5 {
+font-family: 'Assistant', sans-serif;
+ }
+
+h1,h2,h3,h4,h5 {
+     font-weight:bold;   
+}
+
+h1 {
+    font-size:50px;
+    }
+    article.post section h2 {
+            margin-top:25px;
+
+    }
+h2 {
+    font-size:40px;
+    text-transform: capitalize;
+    }
+h3 {
+    font-size:25px;
+    }
+h4 {
+    margin-top:30px;
+    font-size:15px;
+    }
+h5 {
+    font-size:12px;
+    font-weight:100;
+    }
+
+ blockquote {
+	font-family: 'Handlee', cursive;
+	font-size: 25px;
+ }
+
+/* This is necessary to not mess up share icons at bottom of posts */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "casper-icons", "Open Sans", sans-serif;
+}
